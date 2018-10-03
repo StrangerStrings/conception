@@ -1,0 +1,96 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1.6rem;
+  padding: 0 4rem;
+  background-color: #2FA58D
+}
+button {
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: default;
+}
+
+
+//header stuff
+h1{
+  display: inline-block;
+  color:#F2FFFD;
+  font-size: 260%;
+  font-family: 'Emblema One';
+  font-family: 'Unlock';  
+  font-family: 'Fascinate Inline';
+  margin: 2rem 0;
+  // margin-left: 30rem;
+}
+
+.header-buttons{
+  display: inline-block;
+  margin-left: 28.7rem;
+  //for darker icons, so larger size 
+  margin-left: 23.8rem;
+}
+.play-button{
+  display: inline-block;
+  height: 1.8rem;
+  width: 1.9rem;
+  //for darker icons, so larger size 
+  height: 2.0rem;
+  width: 2.1rem;
+  cursor: pointer;
+  margin-left: 0.1rem;
+  svg{
+    fill: #F2FFFD;
+    fill: #565184;
+    padding-bottom: 0.1rem;
+    //for darker icons, so larger size 
+    padding-bottom: 0.2rem;
+  }
+}
+.pause-button{
+  display: inline-block;
+  height: 2rem;
+  width: 2rem;
+  //for darker icons, so larger size 
+  height: 2.2rem;
+  width: 2.2rem;
+  cursor: pointer;
+  svg{
+    fill: #F2FFFD;
+    fill: #565184;
+    padding-bottom: 0.2rem;
+    //for darker icons, so larger size 
+    padding-bottom: 0.3rem;
+  }
+}
+.back-button{
+    display: inline-block;
+    height: 2.4rem;
+    width: 2.4rem;
+  //for darker icons, so larger size     
+    height: 2.6rem;
+    width: 2.6rem;
+    margin-left: 2rem;
+    cursor: pointer;  
+    svg{
+      fill: #F2FFFD;
+      fill: #565184;
+    }
+}
+
+.hidden{
+    display: none;
+}
+
+
+
+
+
+
+
+

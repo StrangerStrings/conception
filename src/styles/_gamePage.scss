@@ -1,0 +1,133 @@
+.game{
+  background-color: #C8ADC3;
+  background-color:  rgb(255, 196, 185);
+  background-color:  rgb(241, 202, 201);
+  border: solid 0.5rem #A33DAC;
+  border-radius: 1.2rem;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 2rem;
+  // margin-left: 30rem;
+}
+
+.sperm{
+  position: absolute;
+  margin-left: -0.5rem;
+  margin-bottom: -0.7rem;
+  width: 1rem;
+  height: 1.4rem;
+  border-radius: 50%;
+  background-color: white;
+  border: 0.1rem gainsboro solid;
+  bottom: 0;
+  z-index:4;
+
+  div{
+    position: absolute;
+    height :0.8rem;
+    border: gainsboro 0.1rem solid;
+    border: white 0.1rem solid;
+    width: 0;
+    left: 0.35rem;
+    top: 1.3rem;
+  }
+
+  &.impregnated{
+    width: 2rem;
+    height: 2.8rem;
+    div{
+      height :1.6rem;
+      border: gainsboro 0.2rem solid;
+      left: 0.7rem;
+      top: 2.6rem;
+    }
+  }
+}
+
+.vwall{
+  position: absolute;
+  background-color: #FB7C94;
+  border-top: 0.4rem solid #A33DAC;
+  border-bottom: 0.4rem solid #A33DAC;
+  height: 1.5rem;
+
+  bottom: 15rem;
+  &.vwall-left{
+    border-right:  0.4rem solid #A33DAC;
+    border-radius: 0 0.7rem 0.7rem 0;
+  }
+  &.vwall-right{
+    width: 50rem;
+    border-left:  0.4rem solid #A33DAC;
+    border-radius:  0.7rem 0 0 0.7rem;
+  }
+  &.vwall-top{
+    border-left:  0.4rem solid #A33DAC;
+    border-right:  0.4rem solid #A33DAC;
+    border-radius:  0.7rem 
+  }
+}
+
+.egg{
+  position: absolute;
+  height: 10rem;
+  width: 8rem;
+  background-color: antiquewhite;
+  background-color: rgb(253, 254, 255);
+  border: rgb(253, 241, 233) solid 1rem;
+  border: rgb(255, 255, 228) solid 1rem;
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%
+}
+
+
+.successBox{
+  position: absolute;
+  z-index: 10;
+  width: 40rem;
+  left: 7.5rem;
+  top: 9rem;
+  fieldset{
+    text-align: center;
+    width:100%;
+    padding:2rem 1.5rem;
+    box-sizing: border-box;
+    color: white;
+  }
+  h3{
+    font-size: 150%;
+    margin: 0;
+  }
+  button{
+    border-radius: 0.6rem;
+    font-size: 120%;
+    height: 5rem;
+    width: 14.2rem;
+    color: #565184;
+    background-color: #C5C3C6;
+    border: #565184 solid 0.3rem;
+    &:hover{
+      font-size: 130%;
+      line-height: 90%;
+      color:#F2FFFD;
+    }
+  }
+  .continue-button{
+    margin-left: 2rem; 
+    width: 23.6rem;
+  }
+}
+
+
+
+.inGameSettings{
+    width: 52rem;
+    // margin-left: 30rem;
+    p{
+        display: inline;
+        margin-left: 1.5rem;
+        color: #565184;
+        font-size: 130%;
+        font-weight: 600;
+    }
+}
+
